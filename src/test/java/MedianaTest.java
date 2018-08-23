@@ -16,4 +16,13 @@ public class MedianaTest {
         double exp = 3d;
         assertEquals(exp, res, 0.01);
     }
+    
+    @Test
+    public void testeVetorOrdenadoPar() {
+        double[] v = {1, 2, 3, 4};
+        Mediana m = new Mediana();
+        double res = m.getMediana(v);
+        double exp = 2.5d;
+        assertEquals(exp, res, 0.01);
+    }
 }

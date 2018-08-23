@@ -11,7 +11,7 @@ public class Mediana {
         if(v.length % 2 == 1) {
             return v[i];
         } else {
-            return v[i];
+            return (v[i] + v[i - 1]) / 2;
         }
     }
 }
